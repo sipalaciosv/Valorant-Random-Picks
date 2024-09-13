@@ -1,116 +1,116 @@
 const tierAgentsByMap = {
     ascent: {
         sPlus: ["Jett", "Sova"],
-        s: ["Reyna", "Killjoy", "Omen","Clove"],
-        a: ["Cypher", "Phoenix", "Sage", "Viper", "Iso", "Chamber","Vyse"],
+        s: ["Reyna", "Killjoy", "Omen", "Clove"],
+        a: ["Cypher", "Phoenix", "Sage", "Viper", "Iso", "Chamber", "Vyse"],
         b: ["Gekko", "Neon", "Yoru", "Brimstone", "Raze", "KAY/O"],
         c: ["Astra", "Deadlock", "Skye", "Breach"],
         d: ["Fade", "Harbor", "Viper"]
     },
     split: {
         sPlus: ["Jett", "Reyna"],
-        s: ["Raze", "Sage", "Chamber","Clove"],
-        a: ["Cypher", "Neon", "Astra", "Iso", "Omen","Vyse"],
-        b: ["Phoenix","Gekko","Yoru","Skye","Sova","Breach"],
-        c: ["Brimstone","Killjoy","KAY/O", "Fade"],
-        d: ["Deadlock","Viper","Harbor"]
+        s: ["Raze", "Sage", "Chamber", "Clove"],
+        a: ["Cypher", "Neon", "Astra", "Iso", "Omen", "Vyse"],
+        b: ["Phoenix", "Gekko", "Yoru", "Skye", "Sova", "Breach"],
+        c: ["Brimstone", "Killjoy", "KAY/O", "Fade"],
+        d: ["Deadlock", "Viper", "Harbor"]
     },
     fracture: {
         sPlus: ["Jett", "Reyna"],
-        s: ["Iso","Clove","Neon","Vyse"],
-        a: ["Sage","Chamber","Raze","Phoenix","Breach","Brimstone"],
-        b: ["Killjoy","Omen","Cypher","Yoru","Sova","Astra"],
-        c: ["Gekko","Deadlock","Viper","KAY/O"],
-        d: ["Fade","Skye","Harbor"]
+        s: ["Iso", "Clove", "Neon", "Vyse"],
+        a: ["Sage", "Chamber", "Raze", "Phoenix", "Breach", "Brimstone"],
+        b: ["Killjoy", "Omen", "Cypher", "Yoru", "Sova", "Astra"],
+        c: ["Gekko", "Deadlock", "Viper", "KAY/O"],
+        d: ["Fade", "Skye", "Harbor"]
     },
     bind: {
         sPlus: ["Clove", "Reyna"],
-        s: ["Raze","Jett","Cypher","Sage"],
-        a: ["Brimstone","Chamber","Skye","Gekko","Iso","Neon"],
-        b: ["Phoenix","Vyse","Deadlock","Fade","Viper","Sova"],
-        c: ["Omen","Yoru","Breach","KAY/O"],
-        d: ["Killjoy","Astra","Harbor"]
+        s: ["Raze", "Jett", "Cypher", "Sage"],
+        a: ["Brimstone", "Chamber", "Skye", "Gekko", "Iso", "Neon"],
+        b: ["Phoenix", "Vyse", "Deadlock", "Fade", "Viper", "Sova"],
+        c: ["Omen", "Yoru", "Breach", "KAY/O"],
+        d: ["Killjoy", "Astra", "Harbor"]
     },
     breeze: {
         sPlus: ["Jett", "Reyna"],
-        s: ["Chamber","Clove", "Neon", "Viper"],
-        a: ["Sova","Yoru","Vyse","Iso", "Cypher","Sage"],
-        b: ["Raze", "Omen", "Phoenix", "KAY/O", "Killjoy","Gekko"],
-        c: ["Deadlock","Harbor", "Breach", "Skye"],
-        d: ["Astra","Fade","Brimstone"]
+        s: ["Chamber", "Clove", "Neon", "Viper"],
+        a: ["Sova", "Yoru", "Vyse", "Iso", "Cypher", "Sage"],
+        b: ["Raze", "Omen", "Phoenix", "KAY/O", "Killjoy", "Gekko"],
+        c: ["Deadlock", "Harbor", "Breach", "Skye"],
+        d: ["Astra", "Fade", "Brimstone"]
     },
     abyss: {
         sPlus: ["Jett", "Clove"],
-        s: ["Reyna","Sova","Cypher","Iso"],
-        a: ["Gekko","Sage","Omen","Chamber","Vyse", "Neon"],
-        b: ["Breach","Astra","Raze","Yoru","Deadlock","KAY/O"],
-        c: ["Brimstone","Phoenix","Skye","Viper"],
-        d: ["Killjoy","Fade","Harbor"]
+        s: ["Reyna", "Sova", "Cypher", "Iso"],
+        a: ["Gekko", "Sage", "Omen", "Chamber", "Vyse", "Neon"],
+        b: ["Breach", "Astra", "Raze", "Yoru", "Deadlock", "KAY/O"],
+        c: ["Brimstone", "Phoenix", "Skye", "Viper"],
+        d: ["Killjoy", "Fade", "Harbor"]
     },
     lotus: {
         sPlus: ["Clove", "Reyna"],
-        s: ["Jett","Raze","Chamber","Gekko"],
-        a: ["Omen","Neon","Iso", "Killjoy","Phoenix","Fade"],
-        b: ["Sage","Cypher","Breach","Vyse","Brimstone","Sova"],
-        c: ["Yoru","Skye","Astra","Viper"],
-        d: ["Deadlock","KAY/O","Harbor"]
+        s: ["Jett", "Raze", "Chamber", "Gekko"],
+        a: ["Omen", "Neon", "Iso", "Killjoy", "Phoenix", "Fade"],
+        b: ["Sage", "Cypher", "Breach", "Vyse", "Brimstone", "Sova"],
+        c: ["Yoru", "Skye", "Astra", "Viper"],
+        d: ["Deadlock", "KAY/O", "Harbor"]
     },
     sunset: {
         sPlus: ["Clove", "Cypher"],
-        s: ["Jett","Raze","Reyna","Sova"],
-        a: ["Gekko", "Neon","Iso", "Chamber", "Omen","Sage"],
-        b: ["Phoenix","Vyse", "Breach", "Deadlock", "Astra", "Fade"],
-        c: ["Brimstone","Yoru", "Skye", "Killjoy"],
-        d: ["KAY/O","Viper", "Harbor"]
+        s: ["Jett", "Raze", "Reyna", "Sova"],
+        a: ["Gekko", "Neon", "Iso", "Chamber", "Omen", "Sage"],
+        b: ["Phoenix", "Vyse", "Breach", "Deadlock", "Astra", "Fade"],
+        c: ["Brimstone", "Yoru", "Skye", "Killjoy"],
+        d: ["KAY/O", "Viper", "Harbor"]
     },
     pearl: {
-        sPlus: ["Jett","Reyna"],
-        s: ["Chamber","Neon","Clove","Vyse"],
-        a: ["Iso","Sage","Phoenix","Killjoy", "Raze","Gekko"],
-        b: ["Astra","Cypher","Viper","Omen","Yoru","Fade"],
+        sPlus: ["Jett", "Reyna"],
+        s: ["Chamber", "Neon", "Clove", "Vyse"],
+        a: ["Iso", "Sage", "Phoenix", "Killjoy", "Raze", "Gekko"],
+        b: ["Astra", "Cypher", "Viper", "Omen", "Yoru", "Fade"],
         c: ["Sova", "Harbor", "KAY/O", "Skye"],
-        d: ["Deadlock","Breach","Brimstone"]
+        d: ["Deadlock", "Breach", "Brimstone"]
     },
     icebox: {
-        sPlus: ["Jett","Reyna"],
-        s: ["Sova","Clove","Viper","Chamber"],
-        a: ["Killjoy","Iso","Raze","Sage","Omen","Neon"],
-        b: ["Gekko","Phoenix","Vyse","Yoru","Cypher","Fade"],
-        c: ["Brimstone","Astra", "Harbor","KAY/O"],
-        d: ["Breach","Deadlock","Skye"]
+        sPlus: ["Jett", "Reyna"],
+        s: ["Sova", "Clove", "Viper", "Chamber"],
+        a: ["Killjoy", "Iso", "Raze", "Sage", "Omen", "Neon"],
+        b: ["Gekko", "Phoenix", "Vyse", "Yoru", "Cypher", "Fade"],
+        c: ["Brimstone", "Astra", "Harbor", "KAY/O"],
+        d: ["Breach", "Deadlock", "Skye"]
     },
     haven: {
-        sPlus: ["Jett","Reyna"],
-        s: ["Clove","Sova","Omen","Cypher"],
-        a: ["Iso","Neon","Chamber","Sage","Killjoy","Phoenix"],
-        b: ["Raze","Vyse","Breach","Brimstone","Gekko","Yoru"],
-        c: ["Skye","Astra","KAY/O","Fade"],
-        d: ["Viper","Deadlock","Harbor"]
+        sPlus: ["Jett", "Reyna"],
+        s: ["Clove", "Sova", "Omen", "Cypher"],
+        a: ["Iso", "Neon", "Chamber", "Sage", "Killjoy", "Phoenix"],
+        b: ["Raze", "Vyse", "Breach", "Brimstone", "Gekko", "Yoru"],
+        c: ["Skye", "Astra", "KAY/O", "Fade"],
+        d: ["Viper", "Deadlock", "Harbor"]
     },
     // Añadir otros mapas con su tier correspondiente...
 };
 
 // Mapeo de roles repetidos según el mapa
 const roleDistribution = {
-    ascent: ["controller", "initiator", "sentinel", "duelist", "controller"], // Repite controller
-    bind: ["controller", "initiator", "sentinel", "duelist", "initiator"], // Repite initiator
-    breeze: ["controller", "initiator", "sentinel", "duelist", "duelist"], // Repite duelist
-    haven: ["controller", "initiator", "sentinel", "duelist", "controller"], // Repite controller
-    icebox: ["controller", "initiator", "sentinel", "duelist", "sentinel"], // Repite sentinel
-    fracture: ["controller", "initiator", "sentinel", "duelist", "initiator"], // Repite initiator
-    lotus: ["controller", "initiator", "sentinel", "duelist", "controller"], // Repite controller
-    split: ["controller", "initiator", "sentinel", "duelist", "duelist"], // Repite duelist
-    pearl: ["controller", "initiator", "sentinel", "duelist", "controller"], // Repite controller
-    abyss: ["controller", "initiator", "sentinel", "duelist", "sentinel"], // Repite sentinel
-    sunset: ["controller", "initiator", "sentinel", "duelist", "initiator"]// Repite initiator
+    ascent: ["controller", "initiator", "sentinel", "duelist", "flex"], // Ahora tenemos un "flex" en lugar de repetir controller
+    bind: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex en lugar de repetido
+    breeze: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    haven: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    icebox: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    fracture: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    lotus: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    split: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    pearl: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    abyss: ["controller", "initiator", "sentinel", "duelist", "flex"], // flex
+    sunset: ["controller", "initiator", "sentinel", "duelist", "flex"] // flex
 };
 
 // Lista de agentes por rol
 const agentsByRole = {
-    controller: ["Brimstone", "Viper", "Omen", "Astra", "Harbor","Clove"],
-    initiator: ["Sova", "Skye", "Breach", "KAY/O", "Fade","Gekko"],
-    sentinel: ["Sage", "Cypher", "Killjoy", "Chamber", "Deadlock","Vyse"],
-    duelist: ["Jett", "Phoenix", "Reyna", "Raze", "Yoru", "Neon","Iso"]
+    controller: ["Brimstone", "Viper", "Omen", "Astra", "Harbor", "Clove"],
+    initiator: ["Sova", "Skye", "Breach", "KAY/O", "Fade", "Gekko"],
+    sentinel: ["Sage", "Cypher", "Killjoy", "Chamber", "Deadlock", "Vyse"],
+    duelist: ["Jett", "Phoenix", "Reyna", "Raze", "Yoru", "Neon", "Iso"]
 };
 
 // Función para mezclar una lista de elementos
@@ -121,7 +121,6 @@ function shuffle(array) {
     }
     return array;
 }
-// Función para actualizar el contenido del Tier List
 function updateTierList() {
     const map = document.getElementById("map").value; // Obtener el mapa seleccionado
     const tiers = tierAgentsByMap[map]; // Usar tierAgentsByMap en lugar de tierLists
@@ -130,10 +129,12 @@ function updateTierList() {
     if (tiers) {
         // Recorremos los tiers disponibles en el mapa seleccionado
         for (const [tier, agents] of Object.entries(tiers)) {
-            tierListText += `<strong>Tier ${tier.toUpperCase()}:</strong> ${agents.join(", ")}<br>`;
+            tierListText += `
+                <p><strong class="text-warning">Tier ${tier.toUpperCase()}:</strong> 
+                <span class="text-success">${agents.join(", ")}</span></p>`;
         }
     } else {
-        tierListText = "No hay datos disponibles para este mapa.";
+        tierListText = `<p class="text-danger">No hay datos disponibles para este mapa.</p>`;
     }
 
     document.getElementById("tierListText").innerHTML = tierListText; // Actualizar el contenido del acordeón
@@ -182,7 +183,7 @@ function assignAgentFromTiers(role, alreadyAssignedAgents, previousAgent = null,
 }
 
 // Asignación de roles y agentes
-document.getElementById("playerForm").addEventListener("submit", function(event) {
+document.getElementById("playerForm").addEventListener("submit", function (event) {
     event.preventDefault(); // Evita que el formulario se envíe
 
     // Obtener los nombres de los jugadores
@@ -220,51 +221,66 @@ document.getElementById("playerForm").addEventListener("submit", function(event)
 
     // Asignación de agentes iniciales, respetando la duplicación de roles
     playerData.forEach(data => {
-        // Crear un registro para los roles duplicados
-        if (!assignedAgentsByRole[data.role]) {
-            assignedAgentsByRole[data.role] = [];
+        // Si el rol es "flex", no asignamos un agente específico
+        if (data.role === "flex") {
+            data.agent = "Libre (Flex)";
+            data.tier = "N/A";
+        } else {
+            // Crear un registro para los roles duplicados
+            if (!assignedAgentsByRole[data.role]) {
+                assignedAgentsByRole[data.role] = [];
+            }
+            // Asignar un agente según si se usa meta y respetando el rol
+            const assignedAgent = assignAgentFromTiers(data.role, assignedAgentsByRole[data.role], null, useMeta, map);
+            data.agent = assignedAgent.agent;  // Asignamos el agente
+            data.tier = assignedAgent.tier;  // Asignamos el tier
+            assignedAgentsByRole[data.role].push(data.agent);  // Marcar el agente como asignado
         }
-        // Asignar un agente según si se usa meta y respetando el rol
-        const assignedAgent = assignAgentFromTiers(data.role, assignedAgentsByRole[data.role], null, useMeta, map);
-        data.agent = assignedAgent.agent;  // Asignamos el agente
-        data.tier = assignedAgent.tier;  // Asignamos el tier
-        assignedAgentsByRole[data.role].push(data.agent);  // Marcar el agente como asignado
     });
-
-    // Mostrar la asignación inicial de roles, agentes y tiers
-    const outputDiv = document.getElementById("output");
-    outputDiv.innerHTML = "<h3>Roles, Agentes y Tiers Asignados</h3>";
-    playerData.forEach((data, index) => {
-        outputDiv.innerHTML += `
-            <p id="player-${index}">
-                ${data.player}: ${data.role} - Agente: ${data.agent} (Tier: ${data.tier}) 
-                <button onclick="rerollAgent(${index})">Rerolear Agente</button>
-            </p>`;
-    });
+   // Mostrar la asignación inicial de roles, agentes y tiers
+const outputDiv = document.getElementById("output");
+outputDiv.innerHTML = `
+    <h3 class="text-center mb-4">Roles, Agentes y Tiers Asignados</h3>
+    <div class="list-group">
+    `;
+playerData.forEach((data, index) => {
+    let agentText = data.role === "flex" ? "Libre para elegir (Flex)" : `${data.agent} (Tier: ${data.tier})`;
+    outputDiv.innerHTML += `
+        <div class="list-group-item bg-dark text-light border-light mb-2">
+            <p id="player-${index}" class="mb-2">
+                <strong class="text-warning">${data.player}</strong>: 
+                <span class="text-info">${data.role}</span> - 
+                Agente: <span class="text-success">${agentText}</span>
+            </p>
+            <button class="btn btn-outline-light btn-sm" onclick="rerollAgent(${index})" ${data.role === "flex" ? "disabled" : ""}>Rerolear Agente</button>
+        </div>
+    `;
+});
+outputDiv.innerHTML += `</div>`;
     // Función para "rolear" un nuevo agente
-    window.rerollAgent = function(index) {
+    window.rerollAgent = function (index) {
         const data = playerData[index];
         if (data.rerollCount < 2) {  // Limitar los intentos de reroll a 2
             data.rerollCount++;
-            
+
             // Quitar el agente anterior del registro para que quede disponible para otros
             const agentIndex = assignedAgentsByRole[data.role].indexOf(data.agent);
             if (agentIndex !== -1) {
                 assignedAgentsByRole[data.role].splice(agentIndex, 1);
             }
-    
+
             // Asignar un nuevo agente, excluyendo el agente anterior
             const previousAgent = data.agent;
             const assignedAgent = assignAgentFromTiers(data.role, assignedAgentsByRole[data.role], previousAgent, useMeta, map);
-            
+
             // Verificar si se encontró un agente disponible
             if (assignedAgent) {
                 data.agent = assignedAgent.agent;
                 data.tier = assignedAgent.tier;
-    
+
                 // Marcar el nuevo agente como asignado
                 assignedAgentsByRole[data.role].push(data.agent);
-                
+
                 // Actualizar el HTML con el nuevo agente y su tier
                 document.getElementById(`player-${index}`).innerHTML = `
                     ${data.player}: ${data.role} - Agente: ${data.agent} (Tier: ${data.tier}) 
@@ -276,5 +292,5 @@ document.getElementById("playerForm").addEventListener("submit", function(event)
             alert(`${data.player} ya no puede re-rollear más agentes.`);
         }
     };
-    
+
 });
